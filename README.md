@@ -15,3 +15,6 @@ Opciones:
 ### Dependencias
 - yargs: dependencia que permite manejar los argumentos recibidos desde la ejecución de esta app directo de la terminal
 - colors: dependencia que permite configurar el color de cadenas de caracteres
+
+### nota: 
+Ejecutar el comando ``` npm install ``` una vez se haya descargado o clonado el repositorio para que de esta forma se instalen las dependencias
