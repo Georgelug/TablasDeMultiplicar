@@ -1,13 +1,17 @@
 # Creador de tablas de multiplicar
-aplicacion de node que permite crear archivos de txt los cuales contienen tablas de multiplicar, con base en argumentos recibidos desde la ejecucion de esta aplicacion.
+Aplicación de node que permite crear archivos txt los cuales contienen tablas de multiplicar, con base en argumentos recibidos desde la ejecución de esta aplicación.
 
-### Argumentos
-- -b | --base : argumento obligatorio el cual es el valor por el cual se va a multiplicar de 0 hasta n valores (ver argumento -h)
-
-- -l | --listar : argumento opcional que tiene por default falso, el cual permite listar o mostrar en consola la tabla de multiplicar
-
-- -h | --hasta : argumento opcional que tiene por default 10, el cual permite configurar el limite superior de la tabla de multiplicar
-
+```
+Opciones:
+      --help     Muestra ayuda                                        [booleano]
+      --version  Muestra número de versión                            [booleano]
+  -b, --base     base o numero el cual se va a multiplicar del 1 al 10
+                                                            [número] [requerido]
+  -l, --listar   muestra la tabla de multiplicar creada
+                                                     [booleano] [defecto: false]
+  -h, --hasta    configura el limite superior para la tabla de multiplicar
+                                                          [número] [defecto: 10]
+```
 ### Dependencias
-- yargs: dependencia que permite manejar los argumentos recibidos desde la ejecucion de esta app directo de la terminal
+- yargs: dependencia que permite manejar los argumentos recibidos desde la ejecución de esta app directo de la terminal
 - colors: dependencia que permite configurar el color de cadenas de caracteres
